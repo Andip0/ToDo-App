@@ -51,7 +51,6 @@ body {
     }
 }
 
-/* Header */
 header {
     background: linear-gradient(135deg, var(--accent) 0%, #0e7490 100%);
     padding: 2.5rem 2rem;
@@ -69,7 +68,6 @@ header h1 {
     font-size: 1rem;
 }
 
-/* Input Section */
 .input-section {
     padding: 2rem;
     display: flex;
@@ -121,7 +119,6 @@ header h1 {
     transform: translateY(0);
 }
 
-/* Filters */
 .filters {
     padding: 1.5rem 2rem;
     display: flex;
@@ -153,7 +150,6 @@ header h1 {
     border-color: var(--accent);
 }
 
-/* Tasks Info */
 .tasks-info {
     padding: 1rem 2rem;
     display: flex;
@@ -180,7 +176,6 @@ header h1 {
     color: white;
 }
 
-/* Task List */
 .task-list {
     list-style: none;
     padding: 0 2rem 2rem;
@@ -242,7 +237,6 @@ header h1 {
     color: var(--text-secondary);
 }
 
-/* Checkbox */
 .task-checkbox {
     width: 32px;
     height: 32px;
@@ -283,7 +277,6 @@ header h1 {
     font-weight: bold;
 }
 
-/* Task Text */
 .task-text {
     flex: 1;
     color: var(--text-primary);
@@ -300,7 +293,6 @@ header h1 {
     outline: none;
 }
 
-/* Delete Button */
 .delete-btn {
     padding: 0.5rem 0.75rem;
     background: transparent;
@@ -319,7 +311,6 @@ header h1 {
     transform: scale(1.1);
 }
 
-/* Empty State */
 .empty-state {
     padding: 3rem 2rem;
     text-align: center;
@@ -340,7 +331,6 @@ header h1 {
     font-size: 1.1rem;
 }
 
-/* Responsive */
 @media (max-width: 600px) {
     body {
         padding: 1rem;
